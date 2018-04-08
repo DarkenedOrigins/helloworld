@@ -1,7 +1,7 @@
 # helloworld
 
 vscode settings
-"telemetry.enableTelemetry": false,
+    "telemetry.enableTelemetry": false,
     "vim.cmdLineInitialColon": true,
     "vim.easymotion": true,
     "vim.incsearch": true,
@@ -37,3 +37,10 @@ vscode settings
             "editor.background": "#1a1818"
         }
     }
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.suggestSelection": "recentlyUsedByPrefix",
